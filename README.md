@@ -1,8 +1,12 @@
 # Gomoku AI Agent
 
 Heuristic-based Gomoku (Five-in-a-Row) playing agent in C, ranked 
-top 10 out of approximately 100 submissions in a class competition 
-based on head-to-head win rate against classmate-designed agents.
+**Top 10 of approximately 100 submissions** in a class competition based 
+on head-to-head win rate against classmate-designed agents.
+
+The challenge wasn't algorithmic novelty — it was **designing a heuristic 
+that captures Gomoku's threat asymmetry within a per-turn time budget**, 
+without minimax depth. The architecture below reflects that constraint.
 
 ## Approach
 
